@@ -8,16 +8,23 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 2.6rem;
+    font-size: 2.2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header {
     width: 100%;
+    padding: 0;
+    margin: 0;
     background-color: #008080;
     color: #fff;
     display: flex;
     justify-content: center;
+}
+
+header > h1 {
+    margin: 0;
+    padding: 2rem;
 }
 
 h1, h2, h3, h4 {
