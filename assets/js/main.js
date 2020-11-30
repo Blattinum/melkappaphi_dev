@@ -1,4 +1,4 @@
-let url = "https://melkappaphi.cb3.xyz/";
+let url = window.location.href;
 
 let newDate = new Date();
 let year = newDate.getFullYear();
