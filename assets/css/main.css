@@ -8,7 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 2.2rem;
+    font-size: 2.25rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -32,3 +32,11 @@ h1, h2, h3, h4 {
     font-weight: bold;
 }
 
+.title {
+    width: 50%;
+    cursor: pointer;
+}
+
+.content {
+    width: 50%;
+}
