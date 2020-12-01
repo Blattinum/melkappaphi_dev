@@ -1,5 +1,6 @@
     :root {
         --header-color: #fff;
+        --def-fs: 2.25rem;
     }
 
 html {
@@ -12,7 +13,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 2.25rem;
+    font-size: var(--def-fs);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -43,6 +44,10 @@ h1, h2, h3, h4 {
 .title a {
     color: var(--header-color);
     text-decoration: none;
+}
+
+.copyright {
+    font-size: calc(var(--def-fs) * 0.75);
 }
 
 .copyright a {
