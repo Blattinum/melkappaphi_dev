@@ -81,7 +81,6 @@ nav {
     overflow: hidden;
     /*background: hsla(0, 0%, 100%, 1);*/
     background-color: hsla(180, 100%, 25%, 1);
-    /*border-top: 0.15rem solid hsla(0, 0%, 17%, 0.25);*/
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -106,12 +105,14 @@ nav {
   nav a.active {
     /*background-color: hsla(180, 100%, 25%, 1);*/
     background-color: white;
+    border-top: 0.25rem dashed #eee;
     color: black;
   }
 
   nav a.active:hover {
       /*background-color: hsla(180, 100%, 22%, 1);*/
       background-color: hsla(0, 0%, 90%, 1);
+      border-top: 0.25rem solid hsla(0, 0%, 90%, 1);
   }
 
 /* CHANGE FOR MOBILE SCREENS */
