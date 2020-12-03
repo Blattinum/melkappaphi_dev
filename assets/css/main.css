@@ -115,6 +115,11 @@ nav {
       border-top: 0.25rem solid hsla(0, 0%, 90%, 1);
   }
 
+  i.emoji {
+      text-decoration: none;
+      font-style: normal;
+  }
+
 /* CHANGE FOR MOBILE SCREENS */
 
 @media only screen and (max-width: 720px) {
