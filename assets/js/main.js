@@ -14,6 +14,8 @@ let replaceWith = '&#128522;';
 
 document.querySelector('.emoji').replaceAll(search, replaceWith);
 
+//document.querySelector('.emoji').innerHTML = 'yellow';
+
 //result;
 
 //document.querySelector('.emoji').insertAdjacentHTML('beforeend',result);
